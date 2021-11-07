@@ -175,29 +175,28 @@ Copyright © 2021 </li>
   
  </div>
 <a href="https://youtu.be/KGduc3sgA6g"><div class="mdl-card"><img src="images/dog.png"></img></div></a>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.3.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.3.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-        </div><!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
-
-<script>
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
+  const firebaseConfig = {
     apiKey: "AIzaSyBR61ug3BjwjWLmfGskBnVNOmsHwDm1IYE",
     authDomain: "fun-ico.firebaseapp.com",
     projectId: "fun-ico",
     storageBucket: "fun-ico.appspot.com",
     messagingSenderId: "29802511140",
-    appId: "1:29802511140:web:6976dbbff3b328dc1811b1",
-    measurementId: "G-PGVDE602RK"
+    appId: "1:29802511140:web:7b23e8ba24ced0501811b1",
+    measurementId: "G-81XYMGHNPK"
   };
+
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
 </script>
         <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>
